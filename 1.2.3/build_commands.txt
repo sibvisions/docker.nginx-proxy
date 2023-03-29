@@ -1,4 +1,4 @@
 docker login
-docker build --tag sibvisions/nginx-proxy:1.2.3 .
+docker build --tag sibvisions/nginx-proxy:1.2.3 --platform linux/amd64 .
 docker push sibvisions/nginx-proxy:1.2.3
 docker logout
